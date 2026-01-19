@@ -8,14 +8,63 @@
   <body>
     <header class="header">
       <div class="container">
-        <img src="images/avatar.png" alt="Фото" class="avatar" />
+        <img src="images/i (7).webp" alt="Фото" class="avatar" />
         <h1 id="name">ФИО</h1>
         <p id="position">Должность</p>
         <span class="experience">Стаж: <span id="experience"></span></span>
+        <a
+          href="https://wa.me/996703929850"
+          target="_blank"
+          class="whatsapp-button"
+        >
+          Написать в WhatsApp
+        </a>
+
+        <style>
+          .whatsapp-button {
+            display: inline-block;
+            background-color: #25d366; /* фирменный зелёный WhatsApp */
+            color: white;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition:
+              background-color 0.3s,
+              transform 0.2s;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+          }
+
+          .whatsapp-button:hover {
+            background-color: #1ebe5d; /* чуть темнее при наведении */
+            transform: translateY(-2px);
+          }
+        </style>
       </div>
     </header>
 
     <main class="container">
+      <section>
+        <h2>О себе</h2>
+        Я, Джумабаева Махабат Муптуевна, учитель русского языка и литературы,
+        стаж работы - 22 лет. Работаю и применяю современные педагогические
+        технологии.
+      </section>
+      <section>
+        <h2>Оброзование</h2>
+        <h3>Русский язык и литература</h3>
+        <p>
+          Иссык-Кульский государтсвенный университет имени Касыма Тыныстанова
+        </p>
+        <p>2005-2008</p>
+
+        <h3>Биология с дополнительной специальностью экология</h3>
+        <p>
+          Иссык-Кульский государтсвенный университет имени Касыма Тыныстанова
+        </p>
+        <p>1991-1996</p>
+      </section>
       <section>
         <h2>Награды и достижения</h2>
         <div id="awards"></div>

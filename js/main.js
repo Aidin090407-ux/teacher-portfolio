@@ -2,9 +2,11 @@ fetch("content/profile.md")
   .then((res) => res.text())
   .then((text) => {
     // временно — позже автоматизируем
-    document.getElementById("name").innerText = "Иванова Айгуль Сапаровна";
-    document.getElementById("position").innerText = "Учитель математики";
-    document.getElementById("experience").innerText = "12 лет";
+    document.getElementById("name").innerText = "Джумабаева Махабат Муптуевна";
+    document.getElementById("position").innerText =
+      "Учитель Русского Языка и Литературы Средняя школа имени Адена Истамбекова";
+    document.getElementById("experience").innerText = "22 лет";
+
     document.getElementById("awards").innerHTML = `
       <ul>
         <li>Грамота МОН КР (2022)</li>
