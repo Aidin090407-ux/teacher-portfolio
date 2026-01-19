@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "profile"
+    label: "Портфолио"
+    files:
+      - file: "content/profile.md"
+        label: "Данные учителя"
+        name: "profile"
+        fields:
+          - { label: "ФИО", name: "name", widget: "string" }
+          - { label: "Должность", name: "position", widget: "string" }
+          - { label: "Стаж", name: "experience", widget: "string" }
+          - { label: "Информация", name: "body", widget: "markdown" }
