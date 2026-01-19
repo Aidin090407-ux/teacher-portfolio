@@ -66,3 +66,73 @@ section h2 {
   padding: 20px;
   color: #6b7280;
 }
+
+/* Адаптивность для планшетов */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .header {
+    padding: 30px 15px;
+  }
+
+  .avatar {
+    width: 150px;
+    height: 150px;
+  }
+
+  .header h1 {
+    font-size: 24px;
+  }
+
+  .header p {
+    font-size: 16px;
+  }
+
+  .experience {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  section h2 {
+    font-size: 20px;
+  }
+}
+
+/* Адаптивность для мобильных телефонов */
+@media (max-width: 480px) {
+  .header {
+    padding: 20px 10px;
+  }
+
+  .avatar {
+    width: 120px;
+    height: 120px;
+  }
+
+  .header h1 {
+    font-size: 20px;
+  }
+
+  .header p {
+    font-size: 14px;
+  }
+
+  .experience {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  section h2 {
+    font-size: 18px;
+  }
+}
