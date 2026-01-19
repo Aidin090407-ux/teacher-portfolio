@@ -80,6 +80,90 @@
       <p>© Электронное портфолио учителя</p>
     </footer>
 
+    <style>
+      /* ============================= */
+      /*       Адаптивный стиль        */
+      /* ============================= */
+
+      /* Планшеты */
+      @media (max-width: 768px) {
+        .container {
+          padding: 15px;
+        }
+
+        .header {
+          padding: 40px 20px;
+        }
+
+        .avatar {
+          width: 160px;
+          height: 160px;
+        }
+
+        .header h1 {
+          font-size: 26px;
+        }
+
+        .header p {
+          font-size: 18px;
+        }
+
+        .experience {
+          padding: 6px 12px;
+          font-size: 14px;
+        }
+
+        section {
+          padding: 15px;
+        }
+
+        section h2 {
+          font-size: 22px;
+        }
+      }
+
+      /* Мобильные телефоны */
+      @media (max-width: 480px) {
+        .container {
+          padding: 10px;
+        }
+
+        .header {
+          padding: 50px 15px; /* больше padding сверху и снизу */
+          text-align: center;
+        }
+
+        .avatar {
+          width: 140px;
+          height: 140px;
+          margin-bottom: 20px;
+        }
+
+        .header h1 {
+          font-size: 28px; /* больше заголовок */
+        }
+
+        .header p {
+          font-size: 16px; /* читаемый текст */
+        }
+
+        .experience {
+          display: block; /* переносим на отдельную строку */
+          margin: 10px auto 0 auto;
+          padding: 8px 16px;
+          font-size: 14px;
+        }
+
+        section {
+          padding: 15px;
+        }
+
+        section h2 {
+          font-size: 20px;
+        }
+      }
+    </style>
+
     <script src="js/main.js"></script>
   </body>
 </html>
